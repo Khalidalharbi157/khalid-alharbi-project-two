@@ -54,7 +54,15 @@ main {
 }
 
 ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
-  grid-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.small-horizontal {
+  padding: .33em
 }
