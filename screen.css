@@ -23,7 +23,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 body {
   background: #F0F0F0;
   margin: 0;
-  
+
 }
 
 h1 {
@@ -62,6 +62,10 @@ grid-auto-rows: 300px;
   grid-auto-flow: dense;
   grid-gap: 1em;
   margin: 1em;
+}
+
+li.small-horizontal {
+  grid-column: span 2
 }
 
  img {
